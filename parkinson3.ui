@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>parkinson3</class>
+ <widget class="QWidget" name="parkinson3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1075</width>
+    <height>760</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>80</y>
+     <width>100</width>
+     <height>650</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/image/parkinson2.jpg);
+border-top-left-radius:50px;
+border-bottom-left-radius:50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>80</y>
+     <width>100</width>
+     <height>650</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/image/parkinson2.jpg);
+border-top-right-radius:50px;
+border-bottom-right-radius:50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>90</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgba(200,0,0,200)</string>
+   </property>
+   <property name="text">
+    <string>Parkinson </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>130</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>MDVP:Fo(Hz)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>80</y>
+     <width>450</width>
+     <height>650</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(255,255,255,255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>230</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>MDVP:Flo(Hz)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>180</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>MDVP:Fhi(Hz)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>330</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>MDVP:Jitter(Abs)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>280</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>MDVP:Jitter(%)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_6">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>530</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>MDVP:Shimmer</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_7">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>480</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Jitter:DDP</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_8">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>430</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>MDVP:PPQ</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_9">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>380</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>MDVP:RAP</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_10">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>580</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>MDVP:Shimmer(dB)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_11">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>130</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Shimmer:APQ3</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_12">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>180</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>MDVP:APQ</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_13">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>230</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Shimmer:DDA</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_14">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>280</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>NHR</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_15">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>330</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>HNR</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_16">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>380</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>RPDE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_17">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>430</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>DFA</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_18">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>480</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>spread1</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_19">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>530</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>spread2</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_20">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>580</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>D2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>690</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color:rgba(200, 0, 0,200);
+	border-radius:10px;
+	color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+	background-color:rgb(255, 72, 26)
+}</string>
+   </property>
+   <property name="text">
+    <string>Valider</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_21">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>630</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>PPE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_22">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>630</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(150,0,0,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Shimmer:APQ5</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>lineEdit_3</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>lineEdit_5</zorder>
+  <zorder>lineEdit_4</zorder>
+  <zorder>lineEdit_9</zorder>
+  <zorder>lineEdit_8</zorder>
+  <zorder>lineEdit_7</zorder>
+  <zorder>lineEdit_6</zorder>
+  <zorder>lineEdit_10</zorder>
+  <zorder>lineEdit_22</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>lineEdit_11</zorder>
+  <zorder>lineEdit_12</zorder>
+  <zorder>lineEdit_13</zorder>
+  <zorder>lineEdit_14</zorder>
+  <zorder>lineEdit_15</zorder>
+  <zorder>lineEdit_16</zorder>
+  <zorder>lineEdit_20</zorder>
+  <zorder>lineEdit_17</zorder>
+  <zorder>lineEdit_21</zorder>
+  <zorder>lineEdit_18</zorder>
+  <zorder>lineEdit_19</zorder>
+ </widget>
+ <resources>
+  <include location="app_parkinson.qrc"/>
+  <include location="app_parkinson.qrc"/>
+ </resources>
+ <connections/>
+</ui>
